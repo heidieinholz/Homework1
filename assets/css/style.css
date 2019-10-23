@@ -1,0 +1,171 @@
+
+* {
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  body {
+    background-color: #dddddd;
+    font-family: Arial;
+    line-height: 200%;
+    color: #777777;
+    background-image: url(natural_paper.png);
+    width: 100%;
+  }
+  
+  h1 {
+    font-family: Georgia;
+    display: inline-block;
+    color: white;
+    background: #4aaaa5;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0%;
+  }
+  
+  h2 {
+    font-size: 24px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  footer {
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    color: #ccc;
+    text-align: center;
+    padding: 40px;
+    margin-top: 150px;
+    height: 20px;
+  }
+  
+  form label {
+    font-size: 18px;
+    display: block;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    display: block;
+    margin: 5px 0 20px 0;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  form button {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px 20px;
+    margin:10px 0;
+    font-size: 18px;
+  }
+  
+  #about-me {
+    position: relative;
+    padding-left: 20px;
+    color: #4aaaa5;
+    font-family: Georgia;
+    font-weight: bold;
+  }
+  
+  nav {
+    float: right;
+    width: 350px;
+    margin-top:25px;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #777777;
+    font-size: 18px;
+    padding: 0px 15px;
+    border-right: 2px solid #4aaaa5;
+    text-decoration: none;
+  }
+  
+  nav ul li:last-child a {
+    border-right: none;
+    padding-right: none
+  }
+  
+  header {
+    background: white;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .inline-img {
+    width: 250px;
+    height: 150px;
+    float: left;
+  }
+  
+  .clearfix {
+    display: block;
+    clear: both;
+  }
+  
+  .portfolio-item {
+    position: relative;
+    background-color: rgba(0,0,0,.5);
+    margin-bottom: 20px;
+    float: left;
+    width: 45%;
+  }
+  
+  .portfolio-item:nth-of-type(even) {
+    float: right;
+  }
+  
+  .text1 {
+    float:right;
+    width:650px;
+    position: relative;
+    padding: 30px;
+    right: 20px;
+  }
+
+  .text2 {
+    float: left;
+    width: 950px;
+    position: relative;
+    padding: 30px;
+    right: 20px;
+  }
+  
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #pic1 {
+  background: url('../images/pic1.jpg') cover no-repeat;
+  }
+  
+  #pic2 {
+    background: url('../images/pic2.jpg') cover no-repeat;
+    }
+  
+  #pic3 {
+    background: url('../images/pic3.jpg') cover no-repeat;
+    }
+  
+  #pic4 {
+    background: url('../images/pic4.jpg') cover no-repeat;
+    }
+  
+  #pic5 {
+    background: url('../images/pic5.jpg') cover no-repeat;
+    }
+  
+  #pic6 {
+    background: url('../images/pic6.jpg') cover no-repeat;
+    }   

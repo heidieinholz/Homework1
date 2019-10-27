@@ -3,7 +3,7 @@
     box-sizing: border-box;
     background-color: white;
   }
-  
+
   body {
     background-color: #dddddd;
     font-family: Arial;
@@ -127,29 +127,36 @@
       margin: 0 auto 0 auto;
       padding: 20px;
   }
+  
+  .column1  {
+      float:left;
+      width: 33%;
+      padding: 20px;
+  }
+  
+  .clearfix::after {
+    clear: both;
+    content:"";
+    display: block;
+  }
+  
+  .column2  {
+    float:left;
+    width: 33%;
+    padding:20px;
+}
+  .column3  {
+      float: left;
+      width: 33%;
+  }
 
-  .portopic1  {
+  .photo  {
       position: relative;
+      width: 300px;
+      height: 200px;
   }
 
-  .portopic2  {
-    position: relative;
-  }
-
-  .portopic3  {
-    position: relative;
-  }  
-  
-  .portopic4  {
-    position: relative;
-  }
-
-  .portopic5  {
-    position: relative;
-  }
-
-  #pic1 {
-    background: url('../images/pic1.jpg') cover no-repeat;
+  .pics {
     width: 300px;
     height: 200px;
     position: relative;
@@ -157,42 +164,6 @@
     margin-bottom: 0;
   }
 
-  #pic2 {
-    background: url('../images/pic2.jpg') cover no-repeat;
-    width: 300px;
-    height: 200px;    
-    position: relative;
-    padding: 20px;
-    margin-bottom: 0;
-  }
-  
-  #pic3 {
-    background: url('../images/pic3.jpg') cover no-repeat;
-    width: 300px;
-    height: 200px;
-    position: relative;
-    padding: 20px;
-    margin-bottom: 0;
-  }
-  
-  #pic4 {
-    background: url('../images/pic4.jpg') cover no-repeat;
-    width: 300px;
-    height: 200px; 
-    position: relative;
-    padding: 20px;
-    margin-bottom: 0;   
-  }
-  
-  #pic5 {
-    background: url('../images/pic5.jpg') cover no-repeat;
-    width: 300px;
-    height: 200px;
-    position: relative;
-    padding: 20px;
-    margin-bottom: 0;
-  }
-  
   .box-1  {
     background-color: #4aaaa5;
     color: white;
@@ -204,8 +175,7 @@
     height: 50px;
     top: 100px;
     left: 0px;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
-    
+    font-family:Georgia, 'Times New Roman', Times, serif ; 
   }
 
   .box-2  {
